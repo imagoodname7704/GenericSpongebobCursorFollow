@@ -1,0 +1,20 @@
+draw = function() {
+var X = mouseX;
+var Y = mouseY;
+background(0, 0, 0);
+fill(255, 0, 0);
+textSize(30);
+text("Shower Cowboy Boots!", X+10, Y+10);
+fill(64, 182, 255);
+textSize(20);
+text("It Stomps!", X+10, Y+30);
+fill(21, 255, 0);
+textSize(50);
+text("It CLOMPS!", X+10, Y+80);
+fill(255, 0, 0);
+rect(X+10, Y+90, 40, 20);
+fill(64, 182, 255);
+rect(X+10, Y+120, 80, 20);
+fill(21, 255, 0);
+rect(X+10, Y+150, 140, 20);
+};
